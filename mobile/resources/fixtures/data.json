@@ -1,0 +1,83 @@
+{
+    "login":{
+        "account":{
+            "name":"Nayara Oliveira",
+            "email":"nayara_oliveira@teste.com",
+            "cpf":"26963685380"   
+        },
+         "plan": {
+            "name": "Plano Black",
+            "id": "2",
+            "price": 79.99
+        },
+        "credit_card": {
+            "number": "6224621162535587",
+            "name": "Nayara Oliveira",
+            "month": "1",
+            "year": "2032",
+            "cvv": "996"
+        }
+    },
+    "update":{
+        "account":{
+            "name":"Paloma Silva",
+            "email":"paloma_silva@teste.com",
+            "cpf":"26614565893",
+            "weight": 78,
+            "height": 170
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": "1",
+            "price": 99.99
+        },
+        "credit_card": {
+            "number": "5041757934257341",
+            "name": "Paloma Silva",
+            "month": "9",
+            "year": "2031",
+            "cvv": "268"
+        }
+
+    },
+    "search":{
+        "account":{
+            "name":"Laura de Souza",
+            "email":"laura_souza@teste.com",
+            "cpf":"16681635784"   
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": "1",
+            "price": 99.99
+        },
+        "credit_card": {
+            "number": "6537937971888682",
+            "name": "Laura de Souza",
+            "month": "8",
+            "year": "2027",
+            "cvv": "134"
+        }
+
+    },
+    "remove":{
+        "account":{
+            "name":"Suzana Pereira",
+            "email":"suzana_pereira@teste.com",
+            "cpf":"03184577171"   
+        },
+        "plan": {
+            "name": "Plano Black",
+            "id": "2",
+            "price": 79.99
+        },
+        "credit_card": {
+            "number": "5100365304736346",
+            "name": "Suzana Pereira",
+            "month": "3",
+            "year": "2029",
+            "cvv": "556"
+        }
+
+    }
+}

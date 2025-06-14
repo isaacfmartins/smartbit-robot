@@ -1,0 +1,81 @@
+{
+    "create":{
+        "account":{
+            "name":"Eliza da Silva",
+            "email":"eliza_silva@teste.com",
+            "cpf":"34238501594"   
+        },
+         "plan": {
+            "name": "Plano Black",
+            "id": "2",
+            "price": 79.99
+        },
+        "credit_card": {
+            "number": "5041754379451471",
+            "name": "Eliza da Silva",
+            "month": "7",
+            "year": "2025",
+            "cvv": "408"
+        }
+    },
+    "duplicate":{
+        "account":{
+            "name":"Joana de Lima",
+            "email":"joana_lima@teste.com",
+            "cpf":"27437485753"   
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": "1",
+            "price": 99.99
+        },
+        "credit_card": {
+            "number": "5336765256332166",
+            "name": "Joana de Lima",
+            "month": "11",
+            "year": "2025",
+            "cvv": "345"
+        }
+
+    },
+    "search":{
+        "account":{
+            "name":"Laura de Souza",
+            "email":"laura_souza@teste.com",
+            "cpf":"16681635784"   
+        },
+        "plan": {
+            "name": "Plano Smart",
+            "id": "1",
+            "price": 99.99
+        },
+        "credit_card": {
+            "number": "6537937971888682",
+            "name": "Laura de Souza",
+            "month": "8",
+            "year": "2027",
+            "cvv": "134"
+        }
+
+    },
+    "remove":{
+        "account":{
+            "name":"Suzana Pereira",
+            "email":"suzana_pereira@teste.com",
+            "cpf":"03184577171"   
+        },
+        "plan": {
+            "name": "Plano Black",
+            "id": "2",
+            "price": 79.99
+        },
+        "credit_card": {
+            "number": "5100365304736346",
+            "name": "Suzana Pereira",
+            "month": "3",
+            "year": "2029",
+            "cvv": "556"
+        }
+
+    }
+}

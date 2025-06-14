@@ -1,0 +1,9 @@
+logs
+node_modules
+__pychache__
+.venv
+browser
+results
+
+temp.html
+.txt
