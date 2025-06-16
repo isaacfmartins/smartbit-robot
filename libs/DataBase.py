@@ -1,11 +1,14 @@
 import psycopg2
+import os
+from dotenv import load_dotenv
 
-db_connection = """
-    dbname='smartbit'
-    user='postgres'
-    password='QAx@123'
-    host='localhost'
-    port='5432'
+load_dotenv()
+
+db_connection = f"""
+    dbname='{os.getenv('DB_NAME')}'
+    user='{os.getenv('DB_USER')}'
+    password='{os.getenv('DB_PASSWORD')}'
+    host='{os.getenv('DB_HOST')}'
 """
 
 def execute(query):
@@ -18,7 +21,8 @@ def execute(query):
         cursor.close()
         connection.close()
     except Exception as e:
-        print(e)
+        print("Erro ao executar query:", e)
+        raise 
 
 def insert_membership(data):
 

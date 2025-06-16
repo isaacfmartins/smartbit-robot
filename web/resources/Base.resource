@@ -1,6 +1,8 @@
 *** Settings ***
 
 Documentation     Arquivo principal do projeto Robot Framework
+
+Variables        Env.py
 Library          Browser
 Library          JSONLibrary
 
@@ -19,13 +21,13 @@ Resource        pages/components/BoxNotice.resource
 Resource        pages/components/Modal.resource
 
 *** Variables ***
-${url}    http://localhost:3000/
+${url}    ${BASE_URL}
 
 
 *** Keywords ***
 Open Signup Page
     [Documentation]    Abre a página de cadastro
-    New Browser    chromium    headless=False
+    New Browser    browser=${BROWSER}    headless=${HEADLESS}
     New Page    ${url}
 
 # Helpers

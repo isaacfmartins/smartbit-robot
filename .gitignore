@@ -1,9 +1,11 @@
 logs
 node_modules
 __pychache__
+__pycache__
 .venv
 browser
 results
 
 temp.html
 .txt
+.pyc

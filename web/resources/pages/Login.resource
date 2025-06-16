@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation     Ações e elementos do Login
+Variables        ../Env.py
 Library          Browser
 
 *** Keywords ***
@@ -7,7 +8,7 @@ Library          Browser
 Go to login page
     [Documentation]    Navega para a página de login    
 
-    New Page   http://localhost:3000/login
+    New Page   ${BASE_URL}/login
 
 Submit login form   
     [Arguments]    ${email}    ${password}
